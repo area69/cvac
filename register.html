@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Vaccine Registration">
+
+	<!-- Title -->
+	<title>Vaccine Registration</title>
+	<!-- Favicon -->
+	<link rel="icon" href="favicons/4206-images-logo.png">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,600,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800">
+
+	<!-- Font Awesome Css -->
+	<link rel="stylesheet" href="css/css-font-awesome.min.css">
+	<!-- Flaticon -->
+	<link rel="stylesheet" href="css/fonts-flaticon.css">
+	<!-- Bootstrap 4 Css -->
+	<link rel="stylesheet" href="css/css-bootstrap.min.css">
+	<!-- Animate Css -->
+	<link rel="stylesheet" href="css/css-animate.min.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="css/css-main.css">
+	<!-- Inner Pages Style Css -->
+	<link rel="stylesheet" href="css/css-inner-pages.css">
+
+</head>
+
+<body>
+
+	<!-- ========== Start Loading ========== -->
+
+	<div class="loading">
+		<div class="loading-content">
+			<div class="inner-item"></div>
+			<div class="inner-item"></div>
+			<div class="inner-item"></div>
+			<div class="inner-item"></div>
+			<div class="inner-item"></div>
+		</div>
+	</div>
+
+	<!-- ========== End Loading ========== -->
+
+	<!-- ========== Start Navbar ========== -->
+
+	<div class="header-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<!-- Logo -->
+					<a class="my-logo" href="index.html"><img src="images/images-logo.png" alt="">C-VAC</a>
+					<!-- Button Menu -->
+					<button class="menu-toggle">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</button>
+				</div>
+				<div class="col-md-9">
+					<div class="main-menu">
+						<nav class="navbar navbar-expand-lg">
+							<div class="navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">Home</a></li>
+									<li class="active"><a href="index.html">Registration</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ========== End Navbar ========== -->
+
+	<!-- ========== Start Page Title ========== -->
+
+	<section class="page-title" id="page-title">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="content">
+						<h2>PRE-REGISTER NOW TO COVID-19 VACCINE</h2>
+					</div>
+				</div>
+				<div class="col-md-5 d-none d-md-block">
+					<img class="img-fluid" src="images/homebackground2.png" alt>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ========== End Page Title ========== -->
+
+	<!-- ========== Start Contact ========== -->
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12 ">
+					<div class="card-header font-weight-bold">
+						Personal Information (All With * are Required.)
+					</div>
+					<div class="card-body">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">First Name</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Middle Name</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Last Name</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="">Suffix</label>
+										<select class="form-control" name="brf_suffix">
+											<option value="" disabled="" selected="">Select Suffix</option>
+											<option value="I">I</option>
+											<option value="II">II</option>
+											<option value="III">III</option>
+											<option value="Jr.">Jr.</option>
+											<option value="Sr.">Sr.</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Gender</label>
+										<select class="form-control" name="brf_sex">
+											<option value="" disabled="" selected="">Select Gender</option>
+											<option value="MALE">Male</option>
+											<option value="FEMALE">Female</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Date of Birth</label>
+										<input type="date" class="form-control" id="">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Place of Birth</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Civil Status</label>
+										<select class="form-control" name="brf_civilstatus">
+											<option value="" disabled="" selected="">Select Civil Status</option>--&gt;
+											<option value="SINGLE">Single</option>
+											<option value="WIDOWED">Widowed</option>
+											<option value="MARRIED">Married</option>
+											<option value="SEPARATED">Separated</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Date of Birth</label>
+										<select class="form-control" name="brf_civilstatus">
+											<option value="" disabled="" selected="">Select your Barangay</option>
+											<option value="barangay1">ADDITION HILLS</option>
+											<option value="barangay2">BAGONG SILANG</option>
+											<option value="barangay3">BARANGKA DRIVE</option>
+											<option value="barangay4">BARANGKA IBABA</option>
+											<option value="barangay5">BARANGKA ILAYA</option>
+											<option value="barangay6">BARANGKA ITAAS</option>
+											<option value="barangay7">BUAYANG BATO</option>
+											<option value="barangay8">BUROL</option>
+											<option value="barangay9">DAANG BAKAL</option>
+											<option value="barangay10">HAGDAN BATO ITAAS</option>
+											<option value="barangay11">HAGDAN BATO LIBIS</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">House No./Block/Lot/Unit/Building</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Street</label>
+										<select class="form-control" name="brf_civilstatus">
+											<option value="" disabled="" selected="">Select Your Street</option>
+											<option value="AHI-1" class="sub-barangay1">1ST STREET</option>
+											<option value="AHI-2" class="sub-barangay1">9 DE PEBRERO</option>
+											<option value="AHI-3" class="sub-barangay1">A. MABINI</option>
+											<option value="AHI-4" class="sub-barangay1">A. MARTINEZ</option>
+											<option value="AHI-5" class="sub-barangay1">ANTONIO</option>
+											<option value="AHI-6" class="sub-barangay1">ARAULLO</option>
+											<option value="AHI-7" class="sub-barangay1">BALAGTAS</option>
+											<option value="AHI-8" class="sub-barangay1">CALDERON</option>
+											<option value="AHI-9" class="sub-barangay1">E. DELA PAZ</option>
+											<option value="AHI-10" class="sub-barangay1">EAST</option>
+											<option value="AHI-11" class="sub-barangay1">F. ORTIGAS</option>
+											<option value="AHI-12" class="sub-barangay1">FABELLA ROAD</option>
+											<option value="AHI-13" class="sub-barangay1">GOMEZVILLE</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="">If Street is not listed, Enter it here</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-5">
+									<div class="form-group">
+										<label for="">Name of Apartment/Condo/Subdivision/Compound</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="form-group">
+										<label><span style="color: red">*</span></label>
+										<label for="">Contact Number</label>
+										<input type="text" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="form-group">
+										<label for="">Email</label>
+										<input type="email" class="form-control" id="">
+									</div>
+								</div>
+							</div>
+							<div class="input-group mb-2">
+								<label><span style="color: red">*</span> Add a Profile Picture (Upload Limit 5
+									Mb)</label>
+								<div class="input-group">
+									<div class="custom-file">
+										<input type="file" name="profilePic" class="custom-file-input" id="profilePic"
+											required="">
+										<label class="custom-file-label" for="profilePic">Choose Profile Picture</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-12 col-lg-12 ">
+					<div class="card-header font-weight-bold">
+						Medical History (Required) /
+						Sagutan ng "OO" kung naranasan at "HINDI" kung hindi naranasan
+					</div>
+					<div class="card-body">
+						<div class="container">
+							<div class="row">
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">1. Ikaw ba ay nag positibo na sa
+											COVID-19?</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq1" id="radioq1_1" value="OO" required="">
+												<label for="radioq1_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq1" id="radioq1_2" value="HINDI">
+												<label for="radioq1_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">2. Ikaw ba ay Galing sa ibang bansa?</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq2" id="radioq2_1" value="OO" required="">
+												<label for="radioq2_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq2" id="radioq2_2" value="HINDI">
+												<label for="radioq2_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">3. Ikaw ba ay may nakasama o nakasalamuha na nag
+											positibo sa Covid-19?</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq3" id="radioq3_1" value="OO" required="">
+												<label for="radioq3_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq3" id="radioq3_2" value="HINDI">
+												<label for="radioq3_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<br>
+										<label><b><i>Ikaw ba ay may naramdaman sa mga sumusunod na sintomas sa loob ng 2
+													linggo?</i></b></label>
+										<br>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">4. LAGNAT</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq4" id="radioq4_1" value="OO" required="">
+												<label for="radioq4_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq4" id="radioq4_2" value="HINDI">
+												<label for="radioq4_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">5. SIPON</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq5" id="radioq5_1" value="OO" required="">
+												<label for="radioq5_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq5" id="radioq5_2" value="HINDI">
+												<label for="radioq5_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">6. UBO</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq6" id="radioq6_1" value="OO" required="">
+												<label for="radioq6_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq6" id="radioq6_2" value="HINDI">
+												<label for="radioq6_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">7. PANANAKIT NG LALAMUNAN (SORETHROAT)</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq7" id="radioq7_1" value="OO" required="">
+												<label for="radioq7_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq7" id="radioq7_2" value="HINDI">
+												<label for="radioq7_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">8. PAGTATAE</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq8" id="radioq8_1" value="OO" required="">
+												<label for="radioq8_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq8" id="radioq8_2" value="HINDI">
+												<label for="radioq8_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">9. HIRAP SA PAGHINGA</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq9" id="radioq9_1" value="OO" required="">
+												<label for="radioq9_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq9" id="radioq9_2" value="HINDI">
+												<label for="radioq9_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">10. KAWALAN NG PANGAMOY AT PANGLASA</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq10" id="radioq10_1" value="OO" required="">
+												<label for="radioq10_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq10" id="radioq10_2" value="HINDI">
+												<label for="radioq10_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">11. IKAW BA AY BUNTIS O MAY PLANONG MAGBUNTIS SA
+											DARATING NA BUWAN?</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq11" id="radioq11_1" value="OO" required="">
+												<label for="radioq11_1">
+													OO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="radio" name="rq11" id="radioq11_2" value="HINDI">
+												<label for="radioq11_2">
+													HINDI
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-group">
+									<div class="col-sm-6">
+										<label class="font-weight-bold">12. Lagyan ng "Check" kung ikaw ay mayroon o
+											nagkaroon kaba ng mga sumusunod na
+											karamdaman?</label>
+										<div class="form-group clearfix">
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_dugo" id="cbq10_dugo" value="TRUE">
+												<label for="cbq10_dugo">
+													SAKIT SA DUGO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_cancer" id="cbq10_cancer"
+													value="TRUE">
+												<label for="cbq10_cancer">
+													CANCER
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_leukemia" id="cbq10_leukemia"
+													value="TRUE">
+												<label for="cbq10_leukemia">
+													LEUKEMIA
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_hiv" id="cbq10_hiv" value="TRUE">
+												<label for="cbq10_hiv">
+													HIV
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_diabetes" id="cbq10_diabetes"
+													value="TRUE">
+												<label for="cbq10_diabetes">
+													DIABETES
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_altapresyon" id="cbq10_altapresyon"
+													value="TRUE">
+												<label for="cbq10_altapresyon">
+													ALTAPRESYON
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_bato" id="cbq10_bato" value="TRUE">
+												<label for="cbq10_bato">
+													SAKIT SA BATO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_baga" id="cbq10_baga" value="TRUE">
+												<label for="cbq10_baga">
+													SAKIT SA BAGA
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_puso" id="cbq10_puso" value="TRUE">
+												<label for="cbq10_puso">
+													SAKIT SA PUSO
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_hika" id="cbq10_hika" value="TRUE">
+												<label for="cbq10_hika">
+													HIKA
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_epilepsy" id="cbq10_epilepsy"
+													value="TRUE">
+												<label for="cbq10_epilepsy">
+													EPILEPSY
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_allergy" id="cbq10_allergy"
+													value="TRUE">
+												<label for="cbq10_allergy">
+													ALLERGY SA GAMOT O SA PAGKAIN
+												</label>
+											</div>
+											<br>
+											<div class="icheck-primary d-inline">
+												<input type="checkbox" name="cbq10_none" id="cbq10_none" value="TRUE">
+												<label for="cbq10_none">
+													WALA SA NABANGIT
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-12 col-lg-12 ">
+					<div class="card-header font-weight-bold">
+						Select Sector
+					</div>
+					<div class="card-body">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-6">
+
+									<div class="form-group clearfix">
+										<div class="icheck-primary d-inline">
+											<input type="checkbox" name="cb_solo" id="cb_solo" value="TRUE">
+											<label for="cb_solo">
+												Solo Parent
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+
+									<div class="form-group clearfix">
+										<div class="icheck-primary d-inline">
+											<input type="checkbox" name="cb_pwd" id="cb_pwd" value="TRUE">
+											<label for="cb_pwd">
+												Person with Disability
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+
+									<div class="form-group clearfix">
+										<div class="icheck-primary d-inline">
+											<input type="checkbox" name="cb_lctm" id="cb_lctm" value="TRUE">
+											<label for="cb_lctm">
+												Lactating Mother
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6" hidden="">
+
+									<div class="form-group clearfix">
+										<div class="icheck-primary d-inline">
+											<input type="checkbox" name="cb_isf" id="cb_isf" value="TRUE">
+											<label for="cb_isf">
+												Informal Settler
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-12 col-lg-12 ">
+					<div class="card-header font-weight-bold">
+						Work
+					</div>
+					<div class="card-body">
+						<div class="container">
+
+							<div class="row">
+								<div class="input-group mb-3">
+									<select class="form-control" name="brf_employ">
+										<option value="" disabled="" selected="">Employment Status</option>
+										<option value="EMPLOYED">EMPLOYED</option>
+										<option value="SELF-EMPLOYED">SELF-EMPLOYED</option>
+										<option value="UNEMPLOYED">UNEMPLOYED</option>
+										<option value="PENSIONER">PENSIONER</option>
+									</select>
+								</div>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder="Work Type"
+										name="brf_work_type">
+								</div>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder="Company Name"
+										name="brf_comp_name">
+								</div>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder="Company Address"
+										name="brf_comp_add">
+								</div>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder="Company Contact No."
+										name="brf_comp_no">
+								</div>
+								<div class="input-group mb-3">
+									<select class="form-control" name="brf_income">
+										<option value="" disabled="" selected="">Income</option>
+										<option value="10,000 AND BELOW">10,000 AND BELOW</option>
+										<option value="10,001 - 20,000">10,001 - 20,000</option>
+										<option value="20,001 - 30,000">20,001 - 30,000</option>
+										<option value="ABOVE 30,000">ABOVE 30,000</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-12 col-lg-12 ">
+					<div class="card-header font-weight-bold">
+						Terms and Data Privacy
+					</div>
+					<div class="card-body">
+						<div class="container">
+							<div class="row">
+								<div class="input-group mb-3">
+									<div class="callout callout-info col-12">
+										<h5>Terms and Conditions</h5>
+										<p>1. The information provided is certified as TRUE and CORRECT.</p>
+										<p>2. Registrants should not create multiple FALSE RESIDENCY AND HOUSEHOLD
+											MEMBERS</p>
+									</div>
+								</div>
+								<div class="input-group mb-3">
+									<div class="callout callout-info col-12">
+										<h5>Data Privacy</h5>
+										<p>I hereby agree that all Personal Data (as defined under the Data Privacy Law
+											of 2012 and its implementing rules and regulations), customer data and
+											account or transaction information or records (collectively, the
+											"information") which may be with City Government from time to time relating
+											to us may be processed, profiled or shared to requesting parties or for the
+											purpose of any court, legal process, examination, inquiry, audit or
+											investigation of any Authority. The aforesaid terms shall apply
+											notwithstanding any applicable non-disclosure agreement. We acknowledge that
+											such information may be processed or profiled by or shared with
+											jurisdictions which do not have strict data protection or data privacy laws.
+										</p>
+									</div>
+								</div>
+								<div class="input-group mb-3">
+									<div class="col-7">
+										<div class="icheck-primary">
+											<input type="checkbox" id="agreeTerms" name="terms" value="agree"
+												required="">
+											<label for="agreeTerms">
+												I agree to the Terms, Conditions and Data Privacy.
+											</label>
+										</div>
+									</div>
+
+									<div class="col-5">
+										<input type="text" value="Oo" name="notOkay" hidden="">
+										<button type="submit" class="btn btn-primary btn-block"
+											name="submit">Register</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ========== End Contact ========== -->
+
+	<!-- ========== Start Footer ========== -->
+
+	<footer class="footer">
+		<div class="footer-bottom text-center">
+			<div class="copyright">
+				<p>&copy; 2020 <span>C-VAC</span> All rights reserved</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- ========== End Footer ========== -->
+
+	<!-- ========== Start Scroll To Top  ========== -->
+
+	<a href="#" class="scroll-top">
+		<span><i class="fa fa-arrow-up"></i></span>
+	</a>
+
+	<!-- ========== End Scroll To Top  ========== -->
+
+	<!-- ========== Js ========== -->
+
+	<!-- jQuery -->
+	<script data-cfasync="false" src="js/cloudflare-static-email-decode.min.js"></script>
+	<script src="js/4649-js-jquery-3.2.1.min.js"></script>
+	<!-- Popper Js  -->
+	<script src="js/6429-js-popper.min.js"></script>
+	<!-- Bootstrap 4 Js -->
+	<script src="js/6691-js-bootstrap.min.js"></script>
+	<!-- Particles Js -->
+	<script src="js/4356-js-particles.js"></script>
+	<script src="js/60-js-app.js"></script>
+	<!--  WOW Js  -->
+	<script src="js/1464-js-wow.min.js"></script>
+	<!-- Custom Js -->
+	<script src="js/6930-js-custom.js"></script>
+</body>
+
+</html>
